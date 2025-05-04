@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    max-width: 2000px;
+    height: auto;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 2000px;
+    width: 100%;
+    height: auto;
+    background-color: #008D10;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    margin-right: auto;
+}
+
+header h1 {
+    color: black;
+    font-size: 40px;
+    width; 249px;
+    height: 50px;
+    margin: 10px auto 10px 0px;
+}
+
+main {
+    position: relative;
+    top: 70px;
+    z-index: 0;
+}
+
+.wik {
+    color: white;
+}
+
+.zah {
+    text-align: center;
+    margin: 30px;
+    font-size: 64px;
+    color: #000;
+}
+
+.tyr {
+    color: #007a00;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 25px;
+    margin: 0px auto 0px auto;
+    max-width: 810px;
+    height: auto;
+}
+
+ul {
+    margin-right: 65px;
+}
+
+li a {
+    font-size: 20px;
+    color: #000;
+}
+
+li a:hover {
+    font-size: 25px;
+    color: green;
+}
+
+li a:last-child {
+    margin-bottom: opx;
+}
+
+li {
+    margin-bottom: 76px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    background: #004f0c;
+    z-index: 0;
+    padding: 4px;
+    position: relative;
+    top: 100px;
+}
+
+footer img {
+    width: 92px;
+    height: 61px;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.tyt {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.tyt:hover {
+    color: #0af;
+    border-bottom: 2px solid #0af;
+}
