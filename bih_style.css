@@ -1,0 +1,232 @@
+body {
+    margin: 0px;
+    max-width: 2000px;
+    height: auto;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 2000px;
+    width: 100%;
+    height: auto;
+    background-color: #008D10;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    margin-right: auto;
+}
+
+header img:hover {
+    height: 60px;
+    width: 60px;
+    transition: 0.5s;
+}
+
+header h1 {
+    color: black;
+    font-size: 40px;
+    width; 249px;
+    height: 50px;
+    margin: 10px auto 10px 0px;
+}
+
+main {
+    position: relative;
+    top: 150px;
+    z-index: 0;
+}
+
+.wik {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: fixed;
+    top: 70px;
+    z-index; 1
+    width: 100px;
+    height: 50%;
+}
+
+nav a {
+    position: relative;
+    transition: 0.5s;
+    left: -80px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0px 50px 50px 0px;
+    padding: 10px 26px 10px 26px;
+}
+
+.his {
+    background-color: green;
+}
+
+.his:hover {
+    left: 0px;
+}
+
+.yak {
+    background-color: royalblue;
+}
+
+.yak:hover {
+    left: 0px;
+}
+
+.fact {
+    background-color: brown;
+}
+
+.fact:hover {
+    left: 0px;
+}
+
+.zah {
+    text-align: center;
+    font-size: 64px;
+    color: #000;
+}
+
+h2 {
+    margin: 60px;
+    text-align: center;
+    font-size: 48px;
+    color: #000;
+}
+
+.history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 25px;
+    border-radius: 30px;
+    border: 3px solid black;
+    max-width: 840px;
+    margin: 0px auto 0px auto;
+}
+
+.history p {
+    text-align: justify;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.history img {
+    margin: 0px auto 0px auto;
+}
+
+.goo {
+    display: flex;
+    align-items: space-evenly;
+    flex-direction: column;
+    border-radius: 30px;
+    border: 3px solid black;
+    max-width: 840px;
+    margin: 0px auto 0px auto;
+}
+
+.goo div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 85px 150px 0px 150px;
+}
+
+.goo div:last-child {
+    margin-bottom: 85px;
+}
+
+.goo h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.goo p {
+    font-size: 24px;
+    color: #000;
+}
+
+.goo p a {
+    color: #008d10;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    margin: 0px auto 0px auto;
+    padding: 15px 25px 15px 25px;
+    border-radius: 30px;
+    border: 3px solid black;
+    max-width: 840px;
+}
+
+.facts ul {
+    text-align: center;
+    margin: 10px 10px 10px 0px;
+}
+
+.facts ul li {
+    text-align: justify;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 35px;
+}
+
+.facts img {
+    margin-bottom: 35px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    background: #004f0c;
+    z-index: 2;
+    padding: 4px;
+    position: relative;
+    top: 190px;
+}
+
+footer img {
+    width: 92px;
+    height: 61px;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.tyt {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.tyt:hover {
+    color: #0af;
+    border-bottom: 2px solid #0af;
+}
