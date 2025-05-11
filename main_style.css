@@ -92,6 +92,8 @@ li a:last-child {
 
 li {
     margin-bottom: 76px;
+    height: 10px;
+    width: 200px;
 }
 
 footer {
