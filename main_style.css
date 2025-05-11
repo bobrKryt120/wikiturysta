@@ -74,11 +74,18 @@ section {
 
 ul {
     margin-right: 65px;
+
+}
+
+li {
+    height: 10px;
+    width: 200px;
 }
 
 li a {
     font-size: 20px;
     color: #000;
+
 }
 
 li a:hover {
@@ -92,8 +99,6 @@ li a:last-child {
 
 li {
     margin-bottom: 76px;
-    height: 10px;
-    width: 200px;
 }
 
 footer {
